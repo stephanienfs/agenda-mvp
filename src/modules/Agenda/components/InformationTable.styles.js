@@ -21,4 +21,5 @@ export const TableCell = styled.td`
   padding: 0.25rem 0.5rem;
   width: max-content;
   min-width: 16rem;
+  color: #fff;
 `;

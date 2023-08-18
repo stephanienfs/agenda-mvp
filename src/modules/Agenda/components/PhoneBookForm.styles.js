@@ -7,17 +7,21 @@ export const BookForm = styled.form`
   border-radius: 15px;
   width: max-content;
   margin-bottom: 40px;
+  label {
+    color: #fff;
+  }
 `;
 
 export const Input = styled.input`
-  margin-bottom: 5px;
+  min-width: 20rem;
+  margin-bottom: 1rem;
 `;
 
 export const SubmitButton = styled.button`
-  margin-top: 10px;
-  padding: 10px 15px;
+  margin-top: 0.875rem;
+  padding: 0.875rem 1rem;
   border: none;
   background-color: lightseagreen;
-  font-size: 14px;
-  border-radius: 5px;
+  font-size: 0.875rem;
+  border-radius: 10px;
 `;

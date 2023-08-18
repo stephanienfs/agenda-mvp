@@ -24,5 +24,4 @@ export const Text = styled.p`
   font-size: 2rem;
   font-weight: 600;
   line-height: 2rem;
-  font-family: Poppins;
 `;
