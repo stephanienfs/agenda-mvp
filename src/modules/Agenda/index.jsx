@@ -12,14 +12,14 @@ const AgendaSection = styled.section`
 export default function Agenda() {
   const [entries, setEntries] = useState([]);
 
-  function addItem(newItem) {
+  const addItem = (newItem) => {
     const updatedItems = [...entries, newItem];
     const sortedItems = updatedItems.sort((a, b) =>
       a.userLastname.localeCompare(b.userLastname)
     );
 
     setEntries(sortedItems);
-  }
+  };
   return (
     <AgendaSection>
       <PhoneBookForm addEntryToPhoneBook={addItem} />

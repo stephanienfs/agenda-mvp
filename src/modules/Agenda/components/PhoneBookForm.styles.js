@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const BookForm = styled.form`
+  align-self: center;
   padding: 20px;
   border: 1px solid #f0f8ff;
   border-radius: 15px;
